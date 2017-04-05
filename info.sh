@@ -1,21 +1,21 @@
 #!/bin/bash
-echo "\n\nSystem Information for user: $USER.\n"
+echo "\n\nSystem Information for user: $USER."
 
-echo "The shell is: $SHELL.\n"
+echo "The shell is: $SHELL."
 
-echo "The home dir is: $HOME.\n"
+echo "The home dir is: $HOME."
 
 now=$(date +"%m_%d_%Y")
-echo "Todays date is: $now.\n"
+echo "Todays date is: $now."
 
-echo "\nCurrent users connected:"user=$ users
+echo "Current users connected:"user=$ users
 
-echo "\nSystem:"
+echo "System:"
 sys=$ uname
-echo "\nHost"
+echo "Host"
 host=$ uname -n
-echo "\nKernal:"
+echo "Kernal:"
 kernal=$ uname -r
 
-echo "\nUptime infromation: "
+echo "Uptime infromation: "
 up=$ uptime
