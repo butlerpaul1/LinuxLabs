@@ -1,0 +1,4 @@
+To run the cronBackup type ./cronBackup this backs up the system ever minute to the cronBackup folder, and adds a log to var/log
+
+To run the manual back up type backup.sh and tge user will be presented with a menu, 1 Backup the machine, 2 Restore from the backup, and 3 change the backup destination folder.
+
